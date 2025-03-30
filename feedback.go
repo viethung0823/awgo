@@ -66,6 +66,11 @@ func (it *Item) Title(s string) *Item {
 	return it
 }
 
+// Getter title
+func (it *Item) GetTitle() string {
+	return it.title
+}
+
 // Subtitle sets the subtitle of the item in Alfred's results.
 func (it *Item) Subtitle(s string) *Item {
 	it.subtitle = &s
