@@ -1,4 +1,4 @@
-module github.com/deanishe/awgo
+module github.com/viethung0823/awgo
 
 go 1.13
 
